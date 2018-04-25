@@ -23,7 +23,7 @@ An object of the class \code{list}.
 }
 \author{ Leopoldo Catania & Nima Nonejad }
 \examples{
-\dontrun{
+\donttest{
 
 library(eDMA)
 PowerSet(5)

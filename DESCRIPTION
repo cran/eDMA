@@ -1,10 +1,10 @@
 Package: eDMA
 Type: Package
 Title: Dynamic Model Averaging with Grid Search
-Version: 1.5-0
-Author: Leopoldo Catania & Nima Nonejad
+Version: 1.5-1
+Author: Leopoldo Catania [aut,cre], Nima Nonejad  [aut]
 Maintainer: Leopoldo Catania <leopoldo.catania@econ.au.dk>
-Description: Perform Dynamic Model Averaging with grid search as in Dangl and Halling (2012) <doi:10.1016/j.jfineco.2012.04.003> using parallel computing.
+Description: Perform dynamic model averaging with grid search as in Dangl and Halling (2012) <doi:10.1016/j.jfineco.2012.04.003> using parallel computing.
 SystemRequirements: Requires the OpenMP library for parallel computing.
         If the OpenMP library is not available, the code is executed
         sequentially and a warning is printed.
@@ -14,6 +14,6 @@ Imports: Rcpp (>= 0.12.5)
 LinkingTo: Rcpp,RcppArmadillo
 Depends: zoo,xts,methods,parallel
 NeedsCompilation: yes
-Packaged: 2018-02-20 20:59:07 UTC; leopo
+Packaged: 2018-04-25 14:09:18 UTC; Leopoldo
 Repository: CRAN
-Date/Publication: 2018-02-21 23:22:44 UTC
+Date/Publication: 2018-04-25 14:51:38 UTC

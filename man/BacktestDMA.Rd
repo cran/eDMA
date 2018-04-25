@@ -25,7 +25,7 @@ An object of the class \code{matrix}.
 }
 \author{ Leopoldo Catania & Nima Nonejad }
 \examples{
-\dontrun{
+\donttest{
 
 library(eDMA)
 
